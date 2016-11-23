@@ -21216,7 +21216,7 @@ Once you have performed this implementation, the dataset will be stored in the v
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer:</strong> Some data points are outliers for more than one feature: 65, 66, 75, 128, 154. This could translate a customer's behavior and be a relevant data point.</p>
+<p><strong>Answer:</strong> Some data points are outliers for more than one feature: 65, 66, 75, 128, 154. These could translate a customer's behavior and be relevant data points but are likely to cause convergence or accuracy issues when numerical algorithms are applied to the global data set. For instance, it could create an artificially high cost functions in an optimization process. Thus, I choose to remove them.</p>
 
 </div>
 </div>
